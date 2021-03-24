@@ -8,7 +8,7 @@ spring:
       # dont do this in production!!
       ddl-auto: update
   lifecycle:
-    timeout-per-shutdown-phase: 30s
+    timeout-per-shutdown-phase: ${SHUTDOWN_TIMEOUT:30s}
 info:
   app:
     name: java-kubernetes
