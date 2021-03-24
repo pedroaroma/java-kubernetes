@@ -1,4 +1,4 @@
-# Java and Kubernetes
+# Java and Kubernetes - Demonstração básica
 
 Show how you can move your spring boot application to docker and kubernetes.
 This project is a demo for the series of posts on dev.to
