@@ -68,7 +68,7 @@ k-build-image:
 	eval $$(minikube -p dev.to docker-env) && docker build --force-rm -t java-k8s .;
 
 k-cache-image:
-	minikube cache add java-k8s;
+	minikube -p dev.to cache add java-k8s;
 
 k-deploy-app:
 	kubectl apply -f k8s/app/;
